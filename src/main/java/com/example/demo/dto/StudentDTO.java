@@ -1,14 +1,15 @@
 package com.example.demo.dto;
 
 public class StudentDTO {
-    private long id;
+    private Integer id;
     private String name;
     private String email;
+    private Integer age;
     
-    public long getId() {
+    public Integer getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
     public String getName() {
@@ -22,6 +23,12 @@ public class StudentDTO {
     }
     public void setEmail(String email) {
         this.email = email;
+    }
+    public Integer getAge() {
+        return age;
+    }
+    public void setAge(Integer age) {
+        this.age = age;
     }
     
 }
